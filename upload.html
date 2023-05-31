@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="upload.css">
+
+</head>
+<body>
+    <div class="notes__navbar">
+        <div class="notes__navbar-links">
+            <div class="notes__navbar-links_logo">
+                <img src=components/logo.png alt="Logo"/>
+            </div>
+            <div class="notes__navbar-links_container">
+                <p><a href="/index.html" >Home</a></p>
+                <p><a href="/view.html" >View Notes</a></p>
+                <p><a href="/upload.html">Upload Notes</a></p>
+                <p><a href="/about.html">About</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- title for notes , description and file upload input types to upload file
+    using the post method ...give name and id attribute to form -->
+    <div class="notes__upload">
+        <form action="#" method="post" id="upload-form">
+            <label for="title">Enter title of your new note:</label>
+            <input type="text" id="title" name="title" placeholder="Title" required>
+            <label for="description">Enter its description:</label>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file" required>
+            <button type="submit" class="notes__upload-btn">Upload</button>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body{
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 70% 100%;
+  background-color: #101010;;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.notes__navbar{
+    background: rgba(20, 50, 50, 0.36);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.notes__navbar-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.notes__navbar-links_logo img{
+    width: 100.14px;
+    height: 60.87px;
+}
+
+.notes__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.notes__navbar-links_container p a::selection{
+    color: blue;
+}
+.notes__navbar-links_container p{
+    padding: 10px 30px;
+}
+
+.notes__navbar-links_container p a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    
+}
+
+.notes__body {
+    display : flex;
+    align-items: center;
+    height: 31rem;
+    justify-content: flex-start;
+}
+
+.notes__body-para p{
+    padding-top: 4rem;
+    font-size: 50px; 
+    font-weight: bold;
+    color: #65696B;
+    width: 10rem;
+    margin-left: 4rem;
+}
+
+.notes__bottom-signup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes__body-signup_btn {
+    width: 90px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #14321B;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.notes__body-signup_btn:hover {
+    cursor: pointer;
+    background: black;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+

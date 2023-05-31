@@ -1,0 +1,44 @@
+*{
+    color: white;
+    font-size: 20px;
+}
+
+
+td , th {
+    min-width: 200px;
+    width: 240px;
+    height: 100px;
+    min-height: 80px;
+    text-align: center;
+}
+
+table,
+td,
+th {
+   border: 1px solid grey;
+   
+}
+
+.view__notes-body {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    min-height: 500px;
+    align-items: center;
+}
+
+.view__notes-body h1 , .view__notes-body table {
+    margin: 20px;
+}
+
+.notes__table td button {
+    color: black;
+    background-color: lightblue;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+}
+
+.notes__table td button:hover{
+    cursor: pointer;
+}

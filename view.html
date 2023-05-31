@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view.css">
+    <link rel="stylesheet" href="style.css">
+    <title>View Notes</title>
+</head>
+<body>
+    <!-- use table and show list of notes ( name of notes
+        and subject ) with download button-->
+        <div class="notes__navbar">
+            <div class="notes__navbar-links">
+                <div class="notes__navbar-links_logo">
+                    <img src=components/logo.png alt="Logo"/>
+                </div>
+                <div class="notes__navbar-links_container">
+                    <p><a href="/index.html" >Home</a></p>
+                    <p><a href="/view.html" >View Notes</a></p>
+                    <p><a href="/upload.html">Upload Notes</a></p>
+                    <p><a href="/about.html">About</a></p>
+                </div>
+            </div>
+        </div>
+    <div class="view__notes-body">
+        <h1>List of Notes</h1>
+        <table class="notes__table" id="mainTable">
+            <thead>
+                <th>Name of notes</th>
+                <th>Subject</th>
+            </thead>
+            <tr>
+                <td>Note 1</td>
+                <td>About note 1</td>
+                <td><button>Download</button></td>
+            </tr>
+            <tr>
+                <td>Note 2</td>
+                <td>About note 2</td>
+                <td><button>Download</button></td>
+            </tr>
+            <tr>
+                <td>Note 3</td>
+                <td>About note 3</td>
+                <td><button>Download</button></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
